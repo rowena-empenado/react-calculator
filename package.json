@@ -2,7 +2,7 @@
   "name": "practice-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rowena-empenado.github.io/",
+  "homepage": "https://rowena-empenado.github.io/react-calculator",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.16.3",
@@ -21,11 +21,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
